@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left {
+  font-size: 35px;
+  display: flex;
+  font-family: var(--font3);
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0px 77px;
+  padding-bottom: 12px;
+}
+.nav-left ul li {
+  list-style: none;
+  font-family: var(--font4);
+  margin: 0px 14px;
+  font-size: 22px;
+}
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+}
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+span.m-auto {
+  padding-bottom: 14px;
+}
+.nav-right {
+}
+.content {
+  /* background-color: rgb(243, 242, 242); */
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+}
+.content::after {
+  content: "";
+  background: url("/img/bg9.jpg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.58;
+  border-radius: 12px;
+}
+.content-left {
+  font-family: var(--font2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  z-index: 1;
+}
+.content-right {
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin: auto;
+}
+.content-right img {
+  height: 350px;
+  border-radius: 222px;
+  border: 2px solid gray;
+  z-index: 1;
+}
+.home-articles {
+  padding: 16px;
+  background: rgba(233, 232, 232, 0.5);
+  margin-top: 23px;
+  position: relative;
+}
+.year-box {
+  position: absolute;
+  width: 234px;
+  height: 255px;
+  /* background: red; */
+  right: 0px;
+  top: 24px;
+  font-size: 11px;
+  
+}
+.year-box div {
+  /* margin: 12px 0; */
+}
+.year-box .year {
+  font-size: 16px;
+  margin: -3px 3px;
+  font-weight: 500;
+}
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article img {
+  width: 256px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 25px;
+  width: 335px;
+}
+.home-articles h2{
+  font-size: 20px;
+}
+.home-article-content a {
+  text-decoration: none;
+  color: rgb(95, 94, 94);
+}
+.footer {
+  height: 50px;
+  background: var(--main-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(114, 111, 111);
+
+}
+.footer {
+  color: rgb(153, 152, 152);
+  font-family: var(--font2);
+}

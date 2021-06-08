@@ -1,0 +1,22 @@
+
+.content {
+  /* background-color: rgb(243, 242, 242); */
+  height: 100vh;
+  display: flex;
+  margin-top: 32px;
+  padding: 10px;
+  position: relative;
+}
+.content::after{
+    content: "";
+    background: url("/img/bg9.jpg") no-repeat center center;
+    background-size:cover ;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity:0.58;
+    border-radius: 12px;
+    z-index: -1;
+    overflow: hidden;
+}
+

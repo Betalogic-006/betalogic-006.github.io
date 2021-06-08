@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+/* 
+font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Roboto', sans-serif; 
+font-family: 'Lobster Two', cursive;
+font-family: 'Poiret One', cursive;*/
+:root {
+  --main-bg-color: rgb(49, 56, 110);
+  --font1: "Baloo Bhaina 2", cursive;
+  --font2: "Roboto", sans-serif;
+  --font3: "Lobster Two", cursive;
+  --font4: "Poiret One", cursive;
+}
+.font1 {
+  font-family: var(--font1);
+}
+.font2 {
+  font-family: var(--font2);
+}
+.font3 {
+  font-family: var(--font4);
+}
+.t-center{
+  text-align: center;
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.btn {
+  padding: 0px 20px;
+  border: 2px solid rgb(153, 152, 152);
+  border-radius: 5px;
+  font-family: var(--font1);
+  cursor: pointer;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.btn:hover {
+  background: var(--main-bg-color);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.form-input {
+  padding: 0px 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid rgb(153, 152, 152);
+  border-radius: 5px;
+  font-family: var(--font1);
+  margin: 0px 13px;
+  outline: none;
+  
+}
+.form-box input,
+textarea {
+  width:100%;
+  padding: 10px 6px;
+  margin:7px 0;
+  outline: none;
+  border-radius: 5px;
+  border:2px solid rgb(189, 188, 188);
+  font-family: var(--font2);
+  font-size: 15px;
+}
+.contact-form {
+  
+}
